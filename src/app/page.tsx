@@ -5,10 +5,10 @@ export default function Home() {
         <div>
             <li className='flex flex-col ml-4'>
                 <Link href={"/profile"}>Profile</Link>
-                <Link href={"/profile"}>Docs</Link>
-                <Link href={"/profile"}>Order-Product</Link>
-                <Link href={"/profile"}>Products</Link>
-                <Link href={"/profile"}>About</Link>
+                <Link href={"/docs"}>Docs</Link>
+                <Link href={"/order-product"}>Order-Product</Link>
+                <Link href={"/products"}>Products</Link>
+                <Link href={"/about"}>About</Link>
             </li>  
         </div>
     )

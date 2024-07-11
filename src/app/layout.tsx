@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header>
-          <Link href={'/'}>Header</Link>
+          <Link href={'/'}><h1>Header</h1></Link>
         </header>
         {children}
         <footer>
