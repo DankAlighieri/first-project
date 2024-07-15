@@ -13,7 +13,9 @@ export default function ProductDetailsLayout({
     
     let number = getRandomInt(2);
 
+    // verifying for error
     if (number === 1) {
+        // throwing error that will be passed to the closes error.tsx file 
         throw new Error("Error loading review");
     }
 
